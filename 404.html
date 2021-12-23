@@ -10,7 +10,7 @@
   <script>
     if (window.location.pathname.length > 1) {
       const path = window.location.pathname.replace('#', '')
-      history.pushState({ page: 1 }, "Some title", '/' + path)
+      history.pushState({ page: 1 }, "Some title", 'https://demo.estreeh.com/' + path)
       // document.getElementById('header').innerHTML = document.getElementById('header').innerHTML.replace('{PATH}', path)
     }
   </script>
